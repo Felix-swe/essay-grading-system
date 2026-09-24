@@ -1,6 +1,6 @@
-# 在线智能作文批改系统（AI Essay Grading System）
+# 在线智能作文批改系统（Essay Grading System）
 
-基于大语言模型（LLM）的轻量化 AI 智能作文批改 Web 系统，面向课堂教学与 NLP 课程对照实训场景。
+基于大语言模型（LLM）的轻量化智能作文批改 Web 系统，面向课堂教学与 NLP 课程对照实训场景。
 
 传统作文人工批改存在工作量巨大、评分主观化、无法量化学生写作短板等问题。本系统依托大语言模型技术，结合提示词工程、Web 可视化开发、批量文件解析与数据可视化绘图技术，实现单篇/批量作文的智能批改、四维打分、可视化分析与对照实验。
 
@@ -49,7 +49,7 @@
 ## 📁 目录结构
 
 ```
-ai-essay-grading-system/
+essay-grading-system/
 ├── main.py              # 前端交互主模块（Streamlit 页面）
 ├── model_api.py         # 模型推理接口（提示词模板 + 双模型调用 + JSON 解析容错）
 ├── batch_process.py     # 批量文档批改模块（导出 CSV 到桌面）
