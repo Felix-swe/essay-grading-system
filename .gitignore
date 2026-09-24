@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 密钥与本地配置
+.env
+*.env
+*.key
+
+# 运行时生成的图表与报表（保存到桌面 data_images，不进仓库）
+*.png
+!screenshots/
+!screenshots/*.png
+*.csv
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
